@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+title: Gezinshuis Bodhiboom
+author: sudeshjethoe
+
+url: https://gezinshuisbodhitree.nl
+
+improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+
+remote_theme: Phlow/feeling-responsive
+
