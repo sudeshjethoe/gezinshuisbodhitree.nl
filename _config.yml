@@ -1,9 +1,54 @@
 title: Gezinshuis Bodhiboom
+slogan: Gezinshuis Bodhiboom, een plek voor ieder kind
 author: sudeshjethoe
 
 url: https://gezinshuisbodhitree.nl
 
+# Theme
+remote_theme: Phlow/feeling-responsive
+plugins:
+  - jekyll-asciidoc
+  - jekyll-gist
+  - jekyll-paginate
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
+urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+
 improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
-remote_theme: Phlow/feeling-responsive
+# logo size: 600x80 px
+logo: logo.png
 
+paginate: 5                      # Paginates all X entries
+paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
+
+# Theme works best with Kramdown (using the table of contents function)
+markdown           : kramdown
+permalink          : /:categories/:title/
+highlight          : rouge
+excerpt_separator  : "<!--more-->"
+include            : ['.htaccess']
+# Exclude these files from your production _site
+exclude:
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - INSTALL.md
+  - vendor
+
+language: nl
+
+# Used › default.html front-matter and compress.html
+# # Options › http://jch.penibelst.de
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
