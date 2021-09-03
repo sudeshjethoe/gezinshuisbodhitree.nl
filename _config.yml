@@ -18,7 +18,8 @@ url-pretty: "gezinshuisbodhitree.nl"
 gtm: "GTM-NXZ4KCG"
 
 navbar-links:
-  Over Ons: "about"
+  Over Ons: "over-ons"
+  Wat Bieden Wij: "wat-bieden-wij"
   Bronnen:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

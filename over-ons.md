@@ -2,7 +2,7 @@
 # vim: foldlevelstart=2
 title: Wie Zijn Wij
 date: 2021-02-05
-permalink: /about/
+permalink: /over-ons/
 ---
 
 # Wie zijn wij
@@ -29,3 +29,4 @@ Ons team heeft een cultureel activistische houding en beschikt over een empathis
 # Samenwerken met ouders en herstel van het contact tussen ouders en kind
 
 In relatie tot de ouders zijn wij altijd gericht op samenwerking en herstel van het contact tussen ouder en kind. Door een positieve benadering proberen we het band tussen ouders en kind te versterken. We staan niet tegenover de ouders maar naast elkaar. Wij vellen geen oordeel en hebben begrip voor hun situatie. Door onze ervaring hebben we geleerd dat toestemming van ouders de kans op een positieve ontwikkeling groter maakt. Om die reden proberen wij het netwerk van het kind goed in kaart te brengen en het netwerk zo goed mogelijk te betrekken bij de plaatsing. Alle positieve contacten worden aangehaald om voor de jongeren het gevoel van veiligheid en acceptatie in de nieuwe situatie te vergroten.
+
