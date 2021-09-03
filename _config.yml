@@ -4,8 +4,8 @@ author: Sudesh Jethoe
 
 # Theme
 #remote_theme: Phlow/feeling-responsive
-#remote_theme: daattali/beautiful-jekyll@5.0.0
-theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll@5.0.0
+#theme: beautiful-jekyll-theme
 
 url: https://gezinshuisbodhitree.nl
 
