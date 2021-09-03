@@ -6,14 +6,12 @@ GEM
       multi_json (~> 1.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    asciidoctor (1.5.8)
     beautiful-jekyll-theme (5.0.0)
       jekyll (~> 3.8)
       jekyll-paginate (~> 1.1)
       jekyll-sitemap (~> 1.4)
       kramdown (~> 2.3.0)
       kramdown-parser-gfm (~> 1.1)
-    coderay (1.1.1)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -224,16 +222,12 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.6.1)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     multi_json (1.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.12.4)
-      mini_portile2 (~> 2.6.1)
-      racc (~> 1.4)
     nokogiri (1.12.4-x86_64-linux)
       racc (~> 1.4)
     octokit (4.21.0)
@@ -277,18 +271,15 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
-  ruby
   x86_64-linux
 
 DEPENDENCIES
-  asciidoctor (~> 1.5.4)
   beautiful-jekyll-theme (= 5.0.0)
-  coderay (= 1.1.1)
-  github-pages
+  github-pages (= 219)
   jekyll-paginate
   jekyll-remote-theme
   jekyll-sitemap
   tzinfo-data
 
 BUNDLED WITH
-   2.2.26
+   2.2.27
