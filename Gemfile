@@ -15,12 +15,11 @@ gem 'coderay', '1.1.1'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-gist"
   gem "jekyll-paginate"
-  gem "jekyll-asciidoc"
+  gem "jekyll-remote-theme"
+  gem "jekyll-sitemap"
+  gem "beautiful-jekyll-theme", "5.0.0"
 #  gem "jekyll-commonmark-ghpages"
-#  gem "jekyll-paginate"
-#  gem "jekyll-sitemap"
 #  gem "jekyll-feed"
 #  gem "jemoji"
 #  gem "jekyll-include-cache"

@@ -1,34 +1,38 @@
 title: Gezinshuis Bodhiboom
 slogan: Gezinshuis Bodhiboom, een plek voor ieder kind
-author: sudeshjethoe
+author: Sudesh Jethoe
+
+# Theme
+#remote_theme: Phlow/feeling-responsive
+#remote_theme: daattali/beautiful-jekyll@5.0.0
+theme: beautiful-jekyll-theme
 
 url: https://gezinshuisbodhitree.nl
 
-# Theme
-remote_theme: Phlow/feeling-responsive
-plugins:
-  - jekyll-asciidoc
-  - jekyll-gist
-  - jekyll-paginate
-# This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash at the end.
-#
-# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+social-network-links:
+  email: "algemeen@gezinshuisbodhitree.nl"
 
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+url-pretty: "gezinshuisbodhitree.nl"
+
+# google tag manager id
+gtm: "GTM-NXZ4KCG"
+
+navbar-links:
+  Over Ons: "about"
+  Bronnen:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+      Author's home: "https://deanattali.com"
 
 # logo size: 600x80 px
-logo: logo.png
+logo: /assets/images/logo_600x80.jpg
 
-paginate: 5                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
 # Theme works best with Kramdown (using the table of contents function)
+timezone           : "Europe/Amsterdam"
 markdown           : kramdown
 permalink          : /:categories/:title/
-highlight          : rouge
+highlighter        : rouge
 excerpt_separator  : "<!--more-->"
 include            : ['.htaccess']
 # Exclude these files from your production _site
@@ -52,3 +56,9 @@ compress_html:
   profile: false
   ignore:
     envs: [development]
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme
+
