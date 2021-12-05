@@ -1,10 +1,7 @@
-title: Gezinshuis Bodhiboom
-slogan: Gezinshuis Bodhiboom, een plek voor ieder kind
+title: Gezinshuis Bodhitree
+slogan: Gezinshuis Bodhitree, een plek voor ieder kind
 author: Sudesh Jethoe
 
-# for github pages
-#remote_theme: daattali/beautiful-jekyll@5.0.0
-# for local development
 theme: beautiful-jekyll-theme
 
 url: https://gezinshuisbodhitree.nl
@@ -20,6 +17,9 @@ gtm: "GTM-NXZ4KCG"
 navbar-links:
   Over Ons: "over-ons"
   Wat Bieden Wij: "wat-bieden-wij"
+  Contact: "contact"
+  Voor Wie: "voor-wie"
+  Missie: "missie"
   Bronnen:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -62,4 +62,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-remote-theme
-
