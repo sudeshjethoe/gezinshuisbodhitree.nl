@@ -20,6 +20,7 @@ navbar-links:
   Contact: "contact"
   Voor Wie: "voor-wie"
   Missie: "missie"
+  Werkwijze: "werkwijze"
   Bronnen:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

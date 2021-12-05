@@ -1,0 +1,6 @@
+.header-big-imgs { filter: brightness(75%) }
+.intro-header.big-img .page-heading,
+.intro-header.big-img .post-heading {
+    color: white;
+    filter: brightness(100%);
+}
